@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UPI QR Code Generator</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <div>
+    <label for="upiIdInput">Enter UPI ID:</label>
+    <input type="text" id="upiIdInput">
+    <button onclick="addUPI()">Add UPI ID</button>
+  </div>
+  <div id="qrcodes"></div>
+</body>
+</html>
